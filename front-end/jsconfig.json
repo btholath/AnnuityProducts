@@ -1,0 +1,14 @@
+{
+  "typeAcquisition": {
+    "enable": true
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "checkJs": true
+  },
+  "include": [
+    "src",
+    "node_modules/@types/jest"
+  ]
+}

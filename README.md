@@ -1,6 +1,6 @@
 # Version-01
-This include Vite ReactJs project without User front-end authentication
 
+This include Vite ReactJs project without User front-end authentication
 
 # Annuity Products Platform - Version 02
 
@@ -15,6 +15,7 @@ This project provides a full-stack web application to manage **Annuity Life Insu
 ---
 
 ## 📁 Project Structure
+
 annuity_products/
 ├── back-end/ # Node.js Express REST API
 │ ├── src/
@@ -25,7 +26,6 @@ annuity_products/
 │ ├── App.jsx
 │ └── main.jsx
 └── .env
-
 
 ---
 
@@ -196,3 +196,26 @@ npm install bootstrap
 npm install bootstrap-icons
 npm install react-bootstrap
 import 'bootstrap-icons/font/bootstrap-icons.css';
+
+## Jest and @testing-library/react:
+--  Install Testing Dependencies
+(.venv) bijut@b:~/annuity_products/front-end$ npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event babel-jest
+
+
+-- Configure package.json
+Ensure your package.json has the test script and jest config:
+
+--  Create Setup File
+Create src/setupTests.js to enable extended assertions:
+
+--Install jest-environment-jsdom:
+npm install --save-dev jest-environment-jsdom
+Ensure Your package.json Config Is Set:
+npm install --save-dev babel-jest @babel/preset-env @babel/preset-react identity-obj-proxy
+npm install --save-dev @types/jest
+
+--After saving the jsconfig.json and installing types, restart VS Code or reload the window:
+Ctrl+Shift+P → Reload Window
+
+npm test
+```

@@ -1,4 +1,5 @@
 // AppContent.jsx
+import React from 'react';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useOktaAuth } from '@okta/okta-react';
@@ -10,8 +11,9 @@ import ExportButtons from './components/ExportButtons';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { API_BASE_URL } from '../src/utils/env'
+//const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 const PAGE_SIZE = 5;
 
 function AppContent() {
