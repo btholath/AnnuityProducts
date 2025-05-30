@@ -1,0 +1,265 @@
+[
+  {
+    "policy_number": "DE894149",
+    "type": "Deferred Annuity",
+    "customer": {
+      "name": "Jamie Hoover",
+      "age": 54
+    },
+    "premium": 136363,
+    "start_date": "2015-09-14",
+    "status": "Lapsed",
+    "defer_until": "2055-05-23"
+  },
+  {
+    "policy_number": "IM377509",
+    "type": "Immediate Annuity",
+    "customer": {
+      "name": "Brandon Mccarty",
+      "age": 47
+    },
+    "premium": 114511,
+    "start_date": "2015-06-27",
+    "status": "Pending",
+    "payout_frequency": "Monthly",
+    "payout_amount": 772
+  },
+  {
+    "policy_number": "IM815010",
+    "type": "Immediate Annuity",
+    "customer": {
+      "name": "Cory Reynolds",
+      "age": 63
+    },
+    "premium": 77311,
+    "start_date": "2017-07-19",
+    "status": "Pending",
+    "payout_frequency": "Monthly",
+    "payout_amount": 460
+  },
+  {
+    "policy_number": "IN916970",
+    "type": "Indexed Annuity",
+    "customer": {
+      "name": "Steve Williams DDS",
+      "age": 70
+    },
+    "premium": 174816,
+    "start_date": "2017-07-12",
+    "status": "Lapsed",
+    "index": "NASDAQ",
+    "cap_rate": 0.08,
+    "floor_rate": 0.03
+  },
+  {
+    "policy_number": "IN307062",
+    "type": "Indexed Annuity",
+    "customer": {
+      "name": "Stacy Wolf",
+      "age": 49
+    },
+    "premium": 61037,
+    "start_date": "2020-01-06",
+    "status": "Cancelled",
+    "index": "NASDAQ",
+    "cap_rate": 0.07,
+    "floor_rate": 0.02
+  },
+  {
+    "policy_number": "VA432715",
+    "type": "Variable Annuity",
+    "customer": {
+      "name": "Ian Perez PhD",
+      "age": 45
+    },
+    "premium": 79821,
+    "start_date": "2025-02-21",
+    "status": "Cancelled",
+    "sub_accounts": [
+      "Equity Fund",
+      "Money Market"
+    ]
+  },
+  {
+    "policy_number": "IN252458",
+    "type": "Indexed Annuity",
+    "customer": {
+      "name": "Sarah Collins",
+      "age": 54
+    },
+    "premium": 71109,
+    "start_date": "2018-09-14",
+    "status": "Pending",
+    "index": "S&P 500",
+    "cap_rate": 0.08,
+    "floor_rate": 0.01
+  },
+  {
+    "policy_number": "VA124223",
+    "type": "Variable Annuity",
+    "customer": {
+      "name": "Gregory Smith",
+      "age": 70
+    },
+    "premium": 187768,
+    "start_date": "2020-06-14",
+    "status": "Cancelled",
+    "sub_accounts": [
+      "Equity Fund",
+      "Bond Fund"
+    ]
+  },
+  {
+    "policy_number": "VA500131",
+    "type": "Variable Annuity",
+    "customer": {
+      "name": "Lisa Hamilton DDS",
+      "age": 51
+    },
+    "premium": 181247,
+    "start_date": "2020-12-16",
+    "status": "Cancelled",
+    "sub_accounts": [
+      "Equity Fund",
+      "Money Market"
+    ]
+  },
+  {
+    "policy_number": "IM998262",
+    "type": "Immediate Annuity",
+    "customer": {
+      "name": "Jessica Taylor",
+      "age": 70
+    },
+    "premium": 192497,
+    "start_date": "2022-07-17",
+    "status": "Lapsed",
+    "payout_frequency": "Monthly",
+    "payout_amount": 443
+  },
+  {
+    "policy_number": "IM412055",
+    "type": "Immediate Annuity",
+    "customer": {
+      "name": "Mary Martinez",
+      "age": 51
+    },
+    "premium": 191441,
+    "start_date": "2025-03-17",
+    "status": "Lapsed",
+    "payout_frequency": "Monthly",
+    "payout_amount": 655
+  },
+  {
+    "policy_number": "FI421293",
+    "type": "Fixed Annuity",
+    "customer": {
+      "name": "Colleen Andersen",
+      "age": 68
+    },
+    "premium": 115574,
+    "start_date": "2023-06-30",
+    "status": "Active",
+    "interest_rate": 0.05
+  },
+  {
+    "policy_number": "VA157960",
+    "type": "Variable Annuity",
+    "customer": {
+      "name": "Julia Hampton",
+      "age": 58
+    },
+    "premium": 74996,
+    "start_date": "2019-09-15",
+    "status": "Lapsed",
+    "sub_accounts": [
+      "Bond Fund",
+      "Equity Fund"
+    ]
+  },
+  {
+    "policy_number": "FI560620",
+    "type": "Fixed Annuity",
+    "customer": {
+      "name": "Richard Grimes",
+      "age": 70
+    },
+    "premium": 67640,
+    "start_date": "2020-03-30",
+    "status": "Lapsed",
+    "interest_rate": 0.05
+  },
+  {
+    "policy_number": "DE529377",
+    "type": "Deferred Annuity",
+    "customer": {
+      "name": "April Diaz",
+      "age": 63
+    },
+    "premium": 128694,
+    "start_date": "2023-02-02",
+    "status": "Cancelled",
+    "defer_until": "2051-05-24"
+  },
+  {
+    "policy_number": "DE282638",
+    "type": "Deferred Annuity",
+    "customer": {
+      "name": "Pam Cunningham",
+      "age": 67
+    },
+    "premium": 149372,
+    "start_date": "2020-03-21",
+    "status": "Pending",
+    "defer_until": "2037-05-27"
+  },
+  {
+    "policy_number": "DE791605",
+    "type": "Deferred Annuity",
+    "customer": {
+      "name": "Mr. Thomas Castro",
+      "age": 48
+    },
+    "premium": 183870,
+    "start_date": "2018-06-10",
+    "status": "Pending",
+    "defer_until": "2043-05-26"
+  },
+  {
+    "policy_number": "FI428000",
+    "type": "Fixed Annuity",
+    "customer": {
+      "name": "Veronica Williams",
+      "age": 48
+    },
+    "premium": 86231,
+    "start_date": "2019-09-21",
+    "status": "Pending",
+    "interest_rate": 0.06
+  },
+  {
+    "policy_number": "DE265095",
+    "type": "Deferred Annuity",
+    "customer": {
+      "name": "Brad Rush",
+      "age": 68
+    },
+    "premium": 79196,
+    "start_date": "2016-02-10",
+    "status": "Pending",
+    "defer_until": "2048-05-24"
+  },
+  {
+    "policy_number": "IM546690",
+    "type": "Immediate Annuity",
+    "customer": {
+      "name": "Shane Farmer",
+      "age": 68
+    },
+    "premium": 74314,
+    "start_date": "2024-07-26",
+    "status": "Cancelled",
+    "payout_frequency": "Monthly",
+    "payout_amount": 429
+  }
+]

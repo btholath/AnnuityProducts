@@ -1,0 +1,15 @@
+{
+  "_id": {
+    "$oid": "6839ef960be6f23194c7fcd8"
+  },
+  "policy_number": "DE894149",
+  "type": "Deferred Annuity",
+  "customer": {
+    "name": "Jamie Hoover",
+    "age": 54
+  },
+  "premium": 136363,
+  "start_date": "2015-09-14",
+  "status": "Lapsed",
+  "defer_until": "2055-05-23"
+}
