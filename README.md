@@ -219,3 +219,9 @@ Ctrl+Shift+P → Reload Window
 
 npm test
 ```
+
+## Configure and generate test coverage reports with Jest
+npm install --save-dev jest
+Configure Jest in package.json or jest.config.js
+npx jest --coverage
+npm run test:coverage
